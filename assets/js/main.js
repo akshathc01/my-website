@@ -98,11 +98,24 @@ window.onload = function() {
 
 	// Make resume button non-sticky
 	if (browser.mobile) {
-		$("resume").css({
-			"position":"absolute",
-			"margin-left": "auto",
-			"margin-right": "auto",
+		alert("You're on a mobile");
+		$("#resume").css({
+			'position':'absolute',
+			'margin-left': '30%',
+			'margin-right': '30%',
+			'width': '40%'
 		});
+		$(".info").css({
+			"padding":"5%",
+			"text-align": "left"
+		});
+		$("#projects").css({
+			"margin-bottom": "7%"
+		});
+		$("#intro").css({
+			'min-height' : '30vh'
+		})
+
 	}
 
 	// Scrolly.

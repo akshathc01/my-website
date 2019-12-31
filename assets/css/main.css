@@ -1900,7 +1900,7 @@ input, select, textarea {
 				display: inline-block;
 				background: #fff;
 				padding: 2em 3em 2em 3em;
-				margin: 0;
+				/* margin: 0; */
 			}
 
 				.box.style2 header p {
@@ -2682,7 +2682,7 @@ input, select, textarea {
 
 	#intro {
 	  font-family: 'Raleway', sans-serif;
-	  padding: 1em 2em;
+	  padding: 1em 0;
 	  font-size: 18px;
 		font-weight: 200;
 	  margin: 0.4em 0;
