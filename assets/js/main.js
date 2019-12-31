@@ -1,6 +1,7 @@
 
 function goToURL(val) {
-	location.href = val;
+	window.open(val);
+
 }
 
 
