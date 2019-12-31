@@ -105,8 +105,18 @@ window.onload = function() {
 			'margin-right': '30%',
 			'width': '40%'
 		});
-	}
+		$(".info").css({
+			"padding":"5%",
+			"text-align": "left"
+		});
+		$("#projects").css({
+			"margin-bottom": "7%"
+		});
+		$("#intro").css({
+			'min-height' : '30vh'
+		})
 
+	}
 
 	// Scrolly.
 		$('.scrolly-middle').scrolly({
