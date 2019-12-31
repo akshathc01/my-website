@@ -3,13 +3,7 @@ function goToURL(val) {
 	location.href = val;
 }
 
-if ($.browser.mobile) {
-	$("resume").css({
-		"position":"absolute",
-		"margin-left": "auto",
-		"margin-right": "auto",
-	});
-}
+
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -101,6 +95,15 @@ window.onload = function() {
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+
+	// Make resume button non-sticky
+	if (browser.mobile) {
+		$("resume").css({
+			"position":"absolute",
+			"margin-left": "auto",
+			"margin-right": "auto",
+		});
+	}
 
 	// Scrolly.
 		$('.scrolly-middle').scrolly({
