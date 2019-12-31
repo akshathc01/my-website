@@ -98,7 +98,6 @@ window.onload = function() {
 
 	// Make resume button non-sticky
 	if (browser.mobile) {
-		alert("You're on a mobile");
 		$("#resume").css({
 			'position':'absolute',
 			'margin-left': '30%',
