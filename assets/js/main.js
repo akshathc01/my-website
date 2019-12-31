@@ -3,6 +3,14 @@ function goToURL(val) {
 	location.href = val;
 }
 
+if ($.browser.mobile) {
+	$("resume").css({
+		"position":"absolute",
+		"margin-left": "auto",
+		"margin-right": "auto",
+	});
+}
+
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
