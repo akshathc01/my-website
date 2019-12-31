@@ -2028,7 +2028,14 @@ input, select, textarea {
 				#header header p:before {
 					content: '';
 					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
+					border-top: solid 0px rgba(255, 255, 255, 0.5);
+					margin: 4px 0 0.8em 0;
+				}
+
+				#head-para {
+					content: '';
+					display: block;
+					border-top: 0;
 					margin: 4px 0 0.8em 0;
 				}
 
@@ -2137,6 +2144,15 @@ input, select, textarea {
 		margin: 4.5em 0 0 0;
 	}
 
+
+	.local {
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		margin: 4.5em 0 0 0;
+	}
+
 		#footer:after {
 			content: '';
 			display: block;
@@ -2153,7 +2169,19 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
+		.local a {
+			color: #fff;
+			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		}
+
+
+
 			#footer a:hover {
+				color: #35b88f;
+				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
+			}
+
+			.local a:hover {
 				color: #35b88f;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
